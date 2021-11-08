@@ -1,4 +1,7 @@
 //funcs.cpp
 #include "funcs.h"
 
-//place for function
+double MySub(double a, double b)
+{
+	return a - b;
+}
