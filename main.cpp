@@ -1,5 +1,5 @@
 // TW.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//version 1.0
+//version 1.1
 
 #include <iostream>
 #include "funcs.h"
