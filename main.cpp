@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+#include "funcs.h"
 
 using namespace std;
 
@@ -10,6 +11,7 @@ int main()
 	int ch;
 
 	do {
+		double a, b;
 		cout << "Select a menu item:" << endl;
 		cout << "\t1. Addition" << endl;
 		cout << "\t2. Subtraction" << endl;
@@ -23,7 +25,11 @@ int main()
 			cout << "Exit from switch..." << endl;
 			break;
 		case 1:
-			cout << "The MySum() is being developed" << endl;
+			cout << "\nEnter first number:" << endl;
+			cin >> a;
+			cout << "\nEnter second number:" << endl;
+			cin >> b;
+			cout << a << "+" << b << "=" << MySum(a, b) << endl;
 			break;
 		case 2:
 			cout << "The MySub() is being developed" << endl;
