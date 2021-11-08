@@ -35,7 +35,7 @@ int main()
 			cout << a << "+" << b << "=" << MySum(a, b) << endl;
 			break;
 		case 2:
-			cout << "The MySub() is being developed" << endl;
+			cout << a << "-" << b << "=" << MySub(a, b) << endl;
 			break;
 		case 3:
 			cout << "The MyMul() is being developed" << endl;
