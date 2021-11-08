@@ -38,10 +38,10 @@ int main()
 			cout << a << "-" << b << "=" << MySub(a, b) << endl;
 			break;
 		case 3:
-			cout << "The MyMul() is being developed" << endl;
+			cout << a << "*" << b << "=" << MyMul(a, b) << endl;
 			break;
 		case 4:
-			cout << "The MyDiv() is being developed" << endl;
+			cout << a << "/" << b << "=" << MyDiv(a, b) << endl;
 			break;
 		default:
 			cout << "There is no such menu item!" << endl;
