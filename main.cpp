@@ -9,9 +9,9 @@ using namespace std;
 int main()
 {
 	int ch;
+	double a, b;
 
 	do {
-		double a, b;
 		cout << "Select a menu item:" << endl;
 		cout << "\t1. Addition" << endl;
 		cout << "\t2. Subtraction" << endl;
@@ -20,15 +20,18 @@ int main()
 		cout << "\t0. OUT\n>";
 		cin >> ch;
 
+		if (ch != 0) {
+			cout << "\nEnter first number:" << endl;
+			cin >> a;
+			cout << "\nEnter second number:" << endl;
+			cin >> b;
+		}
+
 		switch (ch) {
 		case 0:
 			cout << "Exit from switch..." << endl;
 			break;
 		case 1:
-			cout << "\nEnter first number:" << endl;
-			cin >> a;
-			cout << "\nEnter second number:" << endl;
-			cin >> b;
 			cout << a << "+" << b << "=" << MySum(a, b) << endl;
 			break;
 		case 2:
